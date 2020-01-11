@@ -55,9 +55,9 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://yoursite.com/2020/01/11/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/images/absolute-path.png">
 <meta property="og:image" content="http://yoursite.com/2020/01/11/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/images/absolute.png">
-<meta property="og:image" content="http://yoursite.com/.com//relative_path_test.png">
-<meta property="og:image" content="http://yoursite.com/.com//picture.png">
-<meta property="og:image" content="http://yoursite.com/.com//show.png">
+<meta property="og:image" content="http://yoursite.com/2020/01/11/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/relative_path_test.png">
+<meta property="og:image" content="http://yoursite.com/2020/01/11/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/picture.png">
+<meta property="og:image" content="http://yoursite.com/2020/01/11/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/show.png">
 <meta property="article:published_time" content="2020-01-11T08:41:33.000Z">
 <meta property="article:modified_time" content="2020-01-11T10:28:05.765Z">
 <meta property="article:author" content="王新刚">
@@ -249,9 +249,9 @@
 <h2 id="二、以相对路径插入图片"><a href="#二、以相对路径插入图片" class="headerlink" title="二、以相对路径插入图片"></a>二、以相对路径插入图片</h2><ol>
 <li>首先要配置根目录下的_config.yml文件（我的路径为D:\blog），设置post_asset_folder字段值为true  </li>
 </ol>
-<p><em>设置后在使用$ hexo new “filename”命令的时候,会同时产生一个与filename.md文章同名的filename文件夹。将图片资源放在该文件夹中就可以直接使用相对路径引用图片资源了</em><br><img src="/.com//relative_path_test.png" alt="命令行展示"><br><img src="/.com//picture.png" alt="文件夹展示"></p>
+<p><em>设置后在使用$ hexo new “filename”命令的时候,会同时产生一个与filename.md文章同名的filename文件夹。将图片资源放在该文件夹中就可以直接使用相对路径引用图片资源了</em><br><img src="/2020/01/11/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/relative_path_test.png" alt="命令行展示"><br><img src="/2020/01/11/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/picture.png" alt="文件夹展示"></p>
 <ol start="2">
-<li>使用Markdown语法引用图片<br><img src="/.com//show.png" alt="show"></li>
+<li>使用Markdown语法引用图片<br><img src="/2020/01/11/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/show.png" alt="show"></li>
 </ol>
 
     </div>
@@ -271,7 +271,10 @@
     <a href="/2020/01/07/%E9%83%A8%E5%88%86Markdown%E8%AF%AD%E6%B3%95/" rel="prev" title="部分Markdown语法">
       <i class="fa fa-chevron-left"></i> 部分Markdown语法
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/01/11/test/" rel="next" title="test">
+      test <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -345,7 +348,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
